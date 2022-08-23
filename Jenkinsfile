@@ -21,4 +21,8 @@ pipeline {
         }
     }
   
+    parameters {
+  imageTag(name: 'DOCKER_IMAGE', image: 'jenkins/jenkins')
+    }
+    
 }
